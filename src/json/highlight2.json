@@ -2,7 +2,7 @@
   {
     "id": 2,
     "name": "Eat-Dat-Burger",
-    "image": "./images/burger.png",
+    "image": "./images/burger.PNG",
     "description": "An application the allows the user to input different hamburgers they would like to try. All burgers are stored on a mySQL database. The user can save the burger they ate to their burger hall of fame, or choose to delete it right away and hopefully forget they ever ate it. After storing it in the hall of fame, a user can change their mind or make sure to only keep their new top burgers stored.",
     "techUsed": "Handlebars, CSS, mySQL, Node JS, Express",
     "githubURL": "https://github.com/Rawgher/eat-dat-burger",
