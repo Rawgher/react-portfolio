@@ -3,8 +3,9 @@
     "id": 1,
     "name": "Spiderman Click",
     "image": "./images/react-clicky-game.png",
-    "description": "",
-    "githubURL": "",
-    "deployedURL": ""
+    "description": "this",
+    "githubURL": "this",
+    "deployedURL": "this",
+    "alt": "Spiderman Click"
   }
 ]
