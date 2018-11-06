@@ -12,10 +12,11 @@ const styles = {
     minWidth: 275
   },
   title: {
-    fontSize: 24
+    fontSize: 42
   },
   pos: {
-    marginBottom: 12
+    marginBottom: 30,
+    fontSize: 22
   }
 };
 

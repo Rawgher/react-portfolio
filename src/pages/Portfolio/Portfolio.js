@@ -71,11 +71,6 @@ class Portfolio extends React.Component {
               ))}
             </Col>
           </Row>
-          <Row>
-            <Typography variant="h5" gutterBottom>
-              Projects
-            </Typography>
-          </Row>
           <div className="marginAround">
             <Row>
               {this.state.images.map(images => (

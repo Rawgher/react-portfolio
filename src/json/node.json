@@ -1,26 +1,26 @@
 [
   {
     "id": 13,
-    "name": "Bamazon",
+    "name": "Bamazon Database",
     "image": "./images/terminal1.svg",
-    "description": "this",
-    "githubURL": "this",
-    "alt": "this2"
+    "description": "This is an application that uses mySQL to create tables and store data that is then accessed through node to view or edit. There are three levels of access (Customer, Manager, and Supervisor).",
+    "githubURL": "https://github.com/Rawgher/bamazon-database",
+    "alt": "Bamazon Database"
   },
   {
     "id": 14,
-    "name": "Word Constructor",
+    "name": "Constructor Word Guess",
     "image": "./images/terminal2.svg",
-    "description": "this",
-    "githubURL": "this",
-    "alt": "this2"
+    "description": "A word guess game played on your terminal. The game tells you the number of letters you have left, and what letters you have guessed correctly. You will not be docked for using the same wrong letter multiple times.",
+    "githubURL": "https://github.com/Rawgher/constructor-word-guess",
+    "alt": "Constructor Word Guess"
   },
   {
     "id": 15,
     "name": "Liri Node App",
     "image": "./images/terminal3.svg",
-    "description": "this",
-    "githubURL": "this",
-    "alt": "this2"
+    "description": "A node application that will look up information for songs, tweets, or movies for the user. This information will be stored in a file system document.",
+    "githubURL": "https://github.com/Rawgher/liri-node-app",
+    "alt": "Liri Node App"
   }
 ]

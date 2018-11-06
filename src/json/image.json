@@ -3,90 +3,90 @@
     "id": 3,
     "name": "GameScraper",
     "image": "./images/gamescrapper.png",
-    "description": "this",
-    "githubURL": "this",
-    "deployedURL": "this",
-    "alt": "this2"
+    "description": "This application allows a user to scrape theverge.com/games for current gaming news. The user can then save the info toe a mongo database, and add notes or comments to the article. The user may also delete their notes or the saved articles.",
+    "githubURL": "https://github.com/Rawgher/GameScraper",
+    "deployedURL": "https://arcane-shore-42695.herokuapp.com/",
+    "alt": "GameScraper"
   },
   {
     "id": 4,
     "name": "NYT React",
     "image": "./images/nyt.png",
-    "description": "this",
-    "githubURL": "this",
-    "deployedURL": "this",
-    "alt": "this2"
+    "description": "An application that utilizes the New York Times API to pull articles from the users choice of topic and date range. The user can then save an article to a mongo database, or delete the article.",
+    "githubURL": "https://github.com/Rawgher/nytreact",
+    "deployedURL": "https://peaceful-headland-96719.herokuapp.com/",
+    "alt": "NYT React"
   },
   {
     "id": 5,
     "name": "One Stop Code Shop - Forum",
     "image": "./images/code-shop-2.png",
-    "description": "this",
-    "githubURL": "this",
-    "deployedURL": "this",
-    "alt": "this2"
+    "description": "A site that allows users to communicate with each other through forum posts and a chat. Please use demo and demo as login info to view the site. I worked on the overall handlebars set up for each page and the routing to connect mySQL to the site.",
+    "githubURL": "https://github.com/Rawgher/One-Stop-Code-Shop-Forum",
+    "deployedURL": "https://tranquil-spire-77467.herokuapp.com/",
+    "alt": "One Stop Code Shop - Forum"
   },
   {
     "id": 6,
     "name": "Friend Finder",
     "image": "./images/friend-finder.png",
-    "description": "this",
-    "githubURL": "this",
-    "deployedURL": "this",
-    "alt": "this2"
+    "description": "An application where a user can answer questions to connect with another user with similar interests. Information is stored in a json file which is then compared to the users form inputs.",
+    "githubURL": "https://github.com/Rawgher/Friend-Finder",
+    "deployedURL": "https://polar-basin-62063.herokuapp.com/",
+    "alt": "Friend Finder"
   },
   {
     "id": 7,
     "name": "One Stop Code Shop",
     "image": "./images/one_code.png",
-    "description": "this",
-    "githubURL": "this",
-    "deployedURL": "this",
-    "alt": "this2"
+    "description": "A site for coders to search for answers to a question all on one page. Press the Youtube and Stack Overflow icons at the top, press a radio button for one of the coding languages, and then input your related question in the search bar. The responses will show up below. The user can then save their favorites to view later.",
+    "githubURL": "https://github.com/Rawgher/One-Stop-Code-Shop",
+    "deployedURL": "https://eneaantonicelli.github.io/Project1/index.html",
+    "alt": "One Stop Code Shop"
   },
   {
     "id": 8,
     "name": "Overwatch RPG",
     "image": "./images/overwatch_RPG.png",
-    "description": "this",
-    "githubURL": "this",
-    "deployedURL": "this",
-    "alt": "this2"
+    "description": "The app begins with the user selecting a map and a hero. The user then chooses their opponent as they fight their way to victory or defeat.",
+    "githubURL": "https://github.com/Rawgher/Overwatch-RPG",
+    "deployedURL": "https://rawgher.github.io/Overwatch-RPG/",
+    "alt": "Overwatch RPG"
   },
   {
     "id": 9,
-    "name": "Parks & Rec Trivia",
+    "name": "Parks & Rec Trivia Game",
     "image": "./images/trivia.png",
-    "description": "this",
-    "githubURL": "this",
-    "deployedURL": "this",
-    "alt": "this2"
+    "description": "A trivia game that can stump the biggest Parks & Recreations fan.",
+    "githubURL": "https://github.com/Rawgher/Parks-and-Rec-Trivia-Game",
+    "deployedURL": "https://rawgher.github.io/Parks-and-Rec-Trivia-Game/",
+    "alt": "Parks & Rec Trivia Game"
   },
   {
     "id": 10,
     "name": "Giphy Generator",
     "image": "./images/giphy_API.png",
-    "description": "this",
-    "githubURL": "this",
-    "deployedURL": "this",
-    "alt": "this2"
+    "description": "An application that allows the user to input their favorite superhero, which will create a button. After clicking this button, new gifs will generate on the page. These gifs will start on click and pause when they are clicked a second time.",
+    "githubURL": "https://github.com/Rawgher/Giphy-Generator",
+    "deployedURL": "https://rawgher.github.io/Giphy-Generator/",
+    "alt": "Giphy Generator"
   },
   {
     "id": 11,
     "name": "Battle Royale Hangman",
     "image": "./images/hangman.png",
-    "description": "this",
-    "githubURL": "this",
-    "deployedURL": "this",
-    "alt": "this2"
+    "description": "A word guess game using battle royale game titles. Guess the game and you will see an image and short blurb about it.",
+    "githubURL": "https://github.com/Rawgher/Battle-Royale-Hangman",
+    "deployedURL": "https://rawgher.github.io/Battle-Royale-Hangman/",
+    "alt": "Battle Royale Hangman"
   },
   {
     "id": 12,
     "name": "Train Scheduler",
     "image": "./images/train-schedule.png",
-    "description": "this",
-    "githubURL": "this",
-    "deployedURL": "this",
-    "alt": "this2"
+    "description": "An application that allows you to add trains and their schedules to a firebase database. The application will then tell you when the next train is coming depending on the current time.",
+    "githubURL": "https://github.com/Rawgher/Train-Scheduler",
+    "deployedURL": "https://rawgher.github.io/Train-Scheduler/",
+    "alt": "Train Scheduler"
   }
 ]
