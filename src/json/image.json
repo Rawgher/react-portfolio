@@ -2,7 +2,7 @@
   {
     "id": 3,
     "name": "GameScraper",
-    "image": "./images/gamescrapper.PNG",
+    "image": "./images/gamescrapper.png",
     "description": "This application allows a user to scrape theverge.com/games for current gaming news. The user can then save the info toe a mongo database, and add notes or comments to the article. The user may also delete their notes or the saved articles.",
     "githubURL": "https://github.com/Rawgher/GameScraper",
     "deployedURL": "https://arcane-shore-42695.herokuapp.com/",
@@ -11,7 +11,7 @@
   {
     "id": 4,
     "name": "NYT React",
-    "image": "./images/nyt.PNG",
+    "image": "./images/nyt.png",
     "description": "An application that utilizes the New York Times API to pull articles from the users choice of topic and date range. The user can then save an article to a mongo database, or delete the article.",
     "githubURL": "https://github.com/Rawgher/nytreact",
     "deployedURL": "https://peaceful-headland-96719.herokuapp.com/",

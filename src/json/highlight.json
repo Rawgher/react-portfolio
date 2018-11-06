@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "React Clicky Game",
-    "image": "./images/react-clicky-game.PNG",
+    "image": "./images/react-clicky-game.png",
     "description": "A memory game where the user has to click each of the twelve Spiderman costumes only once. The images shuffle on click which makes it harder than it looks. The users previous high score is saved when they lose a game, and will not update until they refresh the page or beat their last high score. Modals pop up letting the user know if they have won or lost.",
     "techUsed": "React JS, CSS, Node JS",
     "githubURL": "https://github.com/Rawgher/react-clicky-game",
