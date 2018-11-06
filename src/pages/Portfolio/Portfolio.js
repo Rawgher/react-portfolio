@@ -9,6 +9,8 @@ import NodeImageCard from "../../components/NodeImageCard";
 import TextCard from "../../components/TextCard";
 import JustImage from "../../components/JustImage";
 import { Col, Row, Container } from "../../components/Grid";
+import Typography from "@material-ui/core/Typography";
+import "./Portfolio.css";
 class Portfolio extends React.Component {
   state = {
     high1,
@@ -22,7 +24,19 @@ class Portfolio extends React.Component {
       <div>
         <Nav />
         <Container fluid>
-          <Row>Featured</Row>
+          <Row>
+            <Typography variant="h4" gutterBottom>
+              Hey there, I'm Roger. I'm a Full Stack Web Developer looking for
+              work. Below are images, links and descriptions for some of the
+              projects I have been working on. Feel free to reach out to me. My
+              info is on the <a href="/Contact">Contact</a> Page.
+            </Typography>
+          </Row>
+          <Row>
+            <Typography variant="h5" gutterBottom>
+              Featured Projects
+            </Typography>
+          </Row>
           <Row>
             <Col size="md-5">
               {this.state.high1.map(high1 => (
@@ -57,22 +71,32 @@ class Portfolio extends React.Component {
               ))}
             </Col>
           </Row>
-          <Row>Projects</Row>
           <Row>
-            {this.state.images.map(images => (
-              <ImageCard
-                id={images.id}
-                key={images.id}
-                name={images.name}
-                image={images.image}
-                description={images.description}
-                githubURL={images.githubURL}
-                deployedURL={images.deployedURL}
-                alt={images.alt}
-              />
-            ))}
+            <Typography variant="h5" gutterBottom>
+              Projects
+            </Typography>
           </Row>
-          <Row>Node Projects</Row>
+          <div className="marginAround">
+            <Row>
+              {this.state.images.map(images => (
+                <ImageCard
+                  id={images.id}
+                  key={images.id}
+                  name={images.name}
+                  image={images.image}
+                  description={images.description}
+                  githubURL={images.githubURL}
+                  deployedURL={images.deployedURL}
+                  alt={images.alt}
+                />
+              ))}
+            </Row>
+          </div>
+          <Row>
+            <Typography variant="h5" gutterBottom>
+              Node Projects
+            </Typography>
+          </Row>
           <Row>
             {this.state.node.map(node => (
               <NodeImageCard
@@ -86,7 +110,19 @@ class Portfolio extends React.Component {
               />
             ))}
           </Row>
-          <Row>Other work can be foudn on my Github account.</Row>
+          <Row>
+            <Typography variant="h5" gutterBottom>
+              Other work can be found on my{" "}
+              <a
+                href="https://github.com/Rawgher"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Github
+              </a>{" "}
+              account.
+            </Typography>
+          </Row>
         </Container>
       </div>
     );
