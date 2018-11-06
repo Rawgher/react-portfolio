@@ -1,0 +1,46 @@
+/* .navbar {
+  background-color: white !important;
+}
+.MuiPaper-root-17 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.Nav {
+  position: absolute;
+  right: 0;
+}
+
+.MuiTab-label-128 a:hover {
+  color: black !important;
+} */
+
+nav {
+  background-color: white;
+  color: black !important;
+}
+
+nav ul a {
+  color: black;
+}
+
+.z-depth-1,
+nav,
+.card-panel,
+.card,
+.toast,
+.btn,
+.btn-large,
+.btn-small,
+.btn-floating,
+.dropdown-content,
+.collapsible,
+.sidenav {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.maxSize {
+  height: 30px;
+  width: 30px;
+}

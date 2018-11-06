@@ -1,0 +1,26 @@
+[
+  {
+    "id": 13,
+    "name": "Bamazon",
+    "image": "./images/terminal1.svg",
+    "description": "",
+    "githubURL": "",
+    "deployedURL": ""
+  },
+  {
+    "id": 14,
+    "name": "Word Constructor",
+    "image": "./images/terminal2.svg",
+    "description": "",
+    "githubURL": "",
+    "deployedURL": ""
+  },
+  {
+    "id": 15,
+    "name": "Liri Node App",
+    "image": "./images/terminal3.svg",
+    "description": "",
+    "githubURL": "",
+    "deployedURL": ""
+  }
+]

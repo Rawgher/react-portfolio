@@ -1,0 +1,82 @@
+[
+  {
+    "id": 3,
+    "name": "GameScraper",
+    "image": "./images/gamescrapper.png",
+    "description": "",
+    "githubURL": "",
+    "deployedURL": ""
+  },
+  {
+    "id": 4,
+    "name": "NYT React",
+    "image": "./images/nyt.png",
+    "description": "",
+    "githubURL": "",
+    "deployedURL": ""
+  },
+  {
+    "id": 5,
+    "name": "One Stop Code Shop - Forum",
+    "image": "./images/code-shop-2.png",
+    "description": "",
+    "githubURL": "",
+    "deployedURL": ""
+  },
+  {
+    "id": 6,
+    "name": "Friend Finder",
+    "image": "./images/friend-finder.png",
+    "description": "",
+    "githubURL": "",
+    "deployedURL": ""
+  },
+  {
+    "id": 7,
+    "name": "One Stop Code Shop",
+    "image": "./images/one_code.png",
+    "description": "",
+    "githubURL": "",
+    "deployedURL": ""
+  },
+  {
+    "id": 8,
+    "name": "Overwatch RPG",
+    "image": "./images/overwatch_RPG.png",
+    "description": "",
+    "githubURL": "",
+    "deployedURL": ""
+  },
+  {
+    "id": 9,
+    "name": "Parks & Rec Trivia",
+    "image": "./images/trivia.png",
+    "description": "",
+    "githubURL": "",
+    "deployedURL": ""
+  },
+  {
+    "id": 10,
+    "name": "Giphy Generator",
+    "image": "./images/giphy_API.png",
+    "description": "",
+    "githubURL": "",
+    "deployedURL": ""
+  },
+  {
+    "id": 11,
+    "name": "Battle Royale Hangman",
+    "image": "./images/hangman.png",
+    "description": "",
+    "githubURL": "",
+    "deployedURL": ""
+  },
+  {
+    "id": 12,
+    "name": "Train Scheduler",
+    "image": "./images/train-schedule.png",
+    "description": "",
+    "githubURL": "",
+    "deployedURL": ""
+  }
+]
