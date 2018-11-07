@@ -14,7 +14,7 @@ class NavTabs extends React.Component {
                 {/* thank you Freepik from Flaticon.com for the logo */}
               </div>
             </a>
-            <ul id="nav-mobile" className="right hide-on-med-and-down">
+            <ul id="nav-mobile" className="right">
               <li>
                 <a href="/About">About</a>
               </li>

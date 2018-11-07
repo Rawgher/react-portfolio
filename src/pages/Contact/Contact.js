@@ -8,20 +8,21 @@ const Contact = () => (
   <div>
     <Nav />
     <Container fluid>
-      <Typography variant="h5" gutterBottom>
+      <Typography variant="h4" gutterBottom>
         Reach out to me if you have some time!
       </Typography>
       <Row>
         <img
           src="./images/github-logo.svg"
           alt="Github Logo"
-          className="logoSize marRight"
+          className="logoSize marRightMore marLeft"
         />
         {/* thank you Dave Gandy from flaticon.com for the logo */}
         <a
           href="https://github.com/Rawgher"
           target="_blank"
           rel="noreferrer noopener"
+          className="fontSize"
         >
           Github
         </a>
@@ -30,20 +31,23 @@ const Contact = () => (
         <img
           src="./images/linkedin-logo.svg"
           alt="LinkedIn Logo"
-          className="logoSize marRight"
+          className="logoSize marRightMore marLeft"
         />
         {/* thank you SimpleIcon from flaticon.com for the logo */}
         <a
           href="https://www.linkedin.com/in/roger-pender-2b564bb4"
           target="_blank"
           rel="noreferrer noopener"
+          className="fontSize"
         >
           LinkedIn
         </a>
       </Row>
       <Row>
-        <i className="material-icons marRight">mail</i>
-        rdpender3@gmail.com
+        <i className="material-icons medium marRight">mail</i>
+        <a href="mailto:rdpender3@gmail.com" className="fontSize">
+          rdpender3@gmail.com
+        </a>
       </Row>
     </Container>
   </div>

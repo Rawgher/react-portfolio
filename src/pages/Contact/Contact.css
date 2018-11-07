@@ -1,8 +1,20 @@
 .logoSize {
-  width: 20px;
-  height: 20px;
+  width: 50px;
+  height: 50px;
 }
 
 .marRight {
   margin-right: 3px;
+}
+
+.marRightMore {
+  margin-right: 7px;
+}
+
+.marLeft {
+  margin-left: 6px;
+}
+
+.fontSize {
+  font-size: 33px;
 }
