@@ -73,16 +73,18 @@ class Portfolio extends React.Component {
         <div className="marginAround">
           <Row>
             {this.state.images.map(images => (
-              <ImageCard
-                id={images.id}
-                key={images.id}
-                name={images.name}
-                image={images.image}
-                description={images.description}
-                githubURL={images.githubURL}
-                deployedURL={images.deployedURL}
-                alt={images.alt}
-              />
+              <Col size="md-6 sm-12">
+                <ImageCard
+                  id={images.id}
+                  key={images.id}
+                  name={images.name}
+                  image={images.image}
+                  description={images.description}
+                  githubURL={images.githubURL}
+                  deployedURL={images.deployedURL}
+                  alt={images.alt}
+                />
+              </Col>
             ))}
           </Row>
         </div>
@@ -93,15 +95,17 @@ class Portfolio extends React.Component {
         </Row>
         <Row>
           {this.state.node.map(node => (
-            <NodeImageCard
-              id={node.id}
-              key={node.id}
-              name={node.name}
-              image={node.image}
-              description={node.description}
-              githubURL={node.githubURL}
-              alt={node.alt}
-            />
+            <Col size="md-4 sm-12">
+              <NodeImageCard
+                id={node.id}
+                key={node.id}
+                name={node.name}
+                image={node.image}
+                description={node.description}
+                githubURL={node.githubURL}
+                alt={node.alt}
+              />
+            </Col>
           ))}
         </Row>
         <Row>

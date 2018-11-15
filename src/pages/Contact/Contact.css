@@ -18,3 +18,8 @@
 .fontSize {
   font-size: 33px;
 }
+
+.pdf {
+  width: 100%;
+  height: 750px;
+}
