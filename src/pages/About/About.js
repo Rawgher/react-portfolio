@@ -45,13 +45,10 @@ const About = () => (
         <Col size="md-4">
           <div className="center-align">
             <Row>
-              <img src="./images/mabel.jpg" alt="Mabel" className="petImg" />
-            </Row>
-            <Row>
               <img
-                src="./images/shadow-lola.jpg"
-                alt="Shadow and Lola"
-                className="petImg"
+                src="./images/ROGER-Small.jpg"
+                alt="Roger"
+                className="myImg"
               />
             </Row>
           </div>
