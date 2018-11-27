@@ -70,7 +70,12 @@ class Portfolio extends React.Component {
             ))}
           </Col>
         </Row>
-        <div className="marginAround">
+        <Row>
+          <Typography variant="h5" gutterBottom>
+            Other Projects
+          </Typography>
+        </Row>
+        <div>
           <Row>
             {this.state.images.map(images => (
               <Col size="md-6 sm-12">
