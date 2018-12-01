@@ -17,7 +17,7 @@ import "./ImageCard.css";
 
 function MediaCard(props) {
   return (
-    <Card className="setHeight">
+    <Card className="setHeightImage">
       <div className="center-align">
         <img className="portimg" src={props.image} alt={props.alt} />
       </div>
