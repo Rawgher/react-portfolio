@@ -9,7 +9,7 @@ import "./NodeImageCard.css";
 
 function MediaCard(props) {
   return (
-    <Card>
+    <Card className="setHeight">
       <div className="center-align">
         <img className="nodeimg" src={props.image} alt={props.alt} />
       </div>
