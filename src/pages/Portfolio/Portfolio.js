@@ -39,9 +39,7 @@ class Portfolio extends React.Component {
         <Row>
           <Col size="md-5 sm-12">
             {this.state.high1.map(high1 => (
-              <div>
-                <JustImage image={high1.image} alt={high1.alt} />
-              </div>
+              <JustImage image={high1.image} alt={high1.alt} />
             ))}
           </Col>
           <Col size="md-7 sm-12">
