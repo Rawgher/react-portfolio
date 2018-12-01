@@ -5,7 +5,7 @@ import Card from "@material-ui/core/Card";
 
 const styles = {
   card: {
-    maxWidth: 600,
+    maxWidth: "100%",
     maxHeight: 600
   }
 };
