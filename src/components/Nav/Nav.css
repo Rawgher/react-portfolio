@@ -1,19 +1,7 @@
-/* .navbar {
-  background-color: white !important;
+.brand-logo {
+  left: 0% !important;
+  margin-left: 20px;
 }
-.MuiPaper-root-17 {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-.Nav {
-  position: absolute;
-  right: 0;
-}
-
-.MuiTab-label-128 a:hover {
-  color: black !important;
-} */
 
 nav {
   background-color: white;

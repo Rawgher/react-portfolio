@@ -9,7 +9,18 @@ const About = () => (
     <Nav />
     <Container fluid>
       <Row>
-        <Col size="md-8">
+        <Col size="md-5 sm-12">
+          <div className="center-align">
+            <Row>
+              <img
+                src="./images/ROGER-Small.jpg"
+                alt="Roger"
+                className="myImg"
+              />
+            </Row>
+          </div>
+        </Col>
+        <Col size="md-7 sm-12">
           <Row>
             <Typography
               variant="h5"
@@ -21,36 +32,27 @@ const About = () => (
               I discovered coding. I really love building stuff from scratch and
               am looking forward to seeing all the different ways I can do that.
             </Typography>
-            <Typography
-              variant="h5"
-              gutterBottom
-              className="flow-text line-height"
-            >
-              I graduated from UC Davis in 2014 with a Bachelor's Degree in
-              Animal Biology. I'm currently located in Northern California, but
-              I spent the majority of my life down in Los Angeles.
-            </Typography>
-            <Typography
-              variant="h5"
-              gutterBottom
-              className="flow-text line-height"
-            >
-              I'm a nerdy kid who enjoys comics, spending a lot of time on
-              Netflix and browsing Reddit. I spend too much time bothering and
-              taking pictures of my pets.
-            </Typography>
+            <div className="iPadSpacing">
+              <Typography
+                variant="h5"
+                gutterBottom
+                className="flow-text line-height"
+              >
+                I graduated from UC Davis in 2014 with a Bachelor's Degree in
+                Animal Biology. I'm currently located in Northern California,
+                but I spent the majority of my life down in Los Angeles.
+              </Typography>
+              <Typography
+                variant="h5"
+                gutterBottom
+                className="flow-text line-height"
+              >
+                I'm a nerdy kid who enjoys comics, spending a lot of time on
+                Netflix and browsing Reddit. I spend too much time bothering and
+                taking pictures of my pets.
+              </Typography>
+            </div>
           </Row>
-        </Col>
-        <Col size="md-4">
-          <div className="center-align">
-            <Row>
-              <img
-                src="./images/ROGER-Small.jpg"
-                alt="Roger"
-                className="myImg"
-              />
-            </Row>
-          </div>
         </Col>
       </Row>
       <Row>
@@ -60,7 +62,7 @@ const About = () => (
       </Row>
       <Typography variant="h6" gutterBottom>
         <Row>
-          <Col size="md-2">
+          <Col size="md-2 sm-1">
             <ul>
               <li>HTML5</li>
               <li>CSS3</li>
@@ -70,7 +72,7 @@ const About = () => (
               <li>Firebase</li>
             </ul>
           </Col>
-          <Col size="md-2">
+          <Col size="md-2 sm-1">
             <ul>
               <li>Node Js</li>
               <li>MySQL</li>
