@@ -16,6 +16,9 @@ class NavTabs extends React.Component {
             </a>
             <ul id="nav-mobile" className="right">
               <li>
+                <a href="/">Portfolio</a>
+              </li>
+              <li>
                 <a href="/About">About</a>
               </li>
               <li>

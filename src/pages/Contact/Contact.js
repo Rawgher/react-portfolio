@@ -9,7 +9,7 @@ const Contact = () => (
     <Nav />
     <Container fluid>
       <Row>
-        <Col size="md-5 sm-12">
+        <Col size="lg-5 md-5 sm-12">
           <Typography variant="h4" gutterBottom>
             Reach out to me if you have some time!
           </Typography>
@@ -53,7 +53,7 @@ const Contact = () => (
             </a>
           </Row>
         </Col>
-        <Col size="md-7 sm-12">
+        <Col size="lg-7 md-7 sm-12">
           <embed
             src="./images/resume.pdf"
             type="application/pdf"

@@ -9,7 +9,7 @@ const About = () => (
     <Nav />
     <Container fluid>
       <Row>
-        <Col size="md-5 sm-12">
+        <Col size="lg-4 md-5 sm-12">
           <div className="center-align">
             <Row>
               <img
@@ -20,7 +20,7 @@ const About = () => (
             </Row>
           </div>
         </Col>
-        <Col size="md-7 sm-12">
+        <Col size="lg-8 md-7 sm-12">
           <Row>
             <Typography
               variant="h5"

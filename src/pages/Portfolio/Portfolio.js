@@ -37,12 +37,12 @@ class Portfolio extends React.Component {
           </Typography>
         </Row>
         <Row>
-          <Col size="md-5 sm-12">
+          <Col size="lg-5 md-5 sm-12">
             {this.state.high1.map(high1 => (
               <JustImage image={high1.image} alt={high1.alt} />
             ))}
           </Col>
-          <Col size="md-7 sm-12">
+          <Col size="lg-7 md-7 sm-12">
             {this.state.high1.map(high1 => (
               <TextCard
                 name={high1.name}
@@ -54,7 +54,7 @@ class Portfolio extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Col size="md-7 sm-12">
+          <Col size="lg-7 md-7 sm-12">
             {this.state.high2.map(high2 => (
               <TextCard
                 name={high2.name}
@@ -64,7 +64,7 @@ class Portfolio extends React.Component {
               />
             ))}
           </Col>
-          <Col size="md-5 sm-12">
+          <Col size="lg-5 md-5 sm-12">
             {this.state.high2.map(high2 => (
               <JustImage image={high2.image} alt={high2.alt} />
             ))}
@@ -78,7 +78,7 @@ class Portfolio extends React.Component {
         <div>
           <Row>
             {this.state.images.map(images => (
-              <Col size="md-6 sm-12">
+              <Col size="lg-6 md-6 sm-12">
                 <ImageCard
                   id={images.id}
                   key={images.id}
@@ -100,7 +100,7 @@ class Portfolio extends React.Component {
         </Row>
         <Row>
           {this.state.node.map(node => (
-            <Col size="md-4 sm-12">
+            <Col size="lg-4 md-4 sm-12">
               <NodeImageCard
                 id={node.id}
                 key={node.id}
