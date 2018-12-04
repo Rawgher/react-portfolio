@@ -23,3 +23,52 @@
   width: 100%;
   height: 750px;
 }
+
+@media screen and (max-width: 1024px) {
+  .fontSize {
+    margin-top: 4px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .fontSize {
+    margin-top: 12px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .fontSize {
+    margin-top: 4px;
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .fontSize {
+    margin-top: 4px;
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .fontSize {
+    margin-top: 8px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .fontSize {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .fontSize {
+    margin-top: 13px;
+    font-size: 18px;
+  }
+}
