@@ -49,7 +49,7 @@
     "id": 7,
     "name": "One Stop Code Shop",
     "image": "./images/one_code.PNG",
-    "description": "A site for coders to search for answers to a question all on one page. Press the Youtube and Stack Overflow icons at the top, press a radio button for one of the coding languages, and then input your related question in the search bar. The responses will show up below. The user can then save their favorites to view later.",
+    "description": "A site for coders to search for answers to a question all on one page. Press the Youtube and Stack Overflow icons at the top, press a radio button for one of the coding languages, and then input your related question in the search bar. The responses will show up below.",
     "githubURL": "https://github.com/Rawgher/One-Stop-Code-Shop",
     "deployedURL": "https://eneaantonicelli.github.io/Project1/index.html",
     "alt": "One Stop Code Shop"
