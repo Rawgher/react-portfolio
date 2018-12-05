@@ -12,11 +12,13 @@ const About = () => (
         <Col size="lg-4 md-5 sm-12">
           <div className="center-align">
             <Row>
-              <img
-                src="./images/ROGER-Small.jpg"
-                alt="Roger"
-                className="myImg"
-              />
+              <div>
+                <img
+                  src="./images/ROGER-Small.jpg"
+                  alt="Roger"
+                  className="myImg"
+                />
+              </div>
             </Row>
           </div>
         </Col>

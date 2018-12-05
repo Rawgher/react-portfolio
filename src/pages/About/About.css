@@ -1,6 +1,6 @@
 .myImg {
-  width: 100%;
-  height: 400px;
+  display: block;
+  margin: auto;
 }
 
 .line-height {
@@ -8,24 +8,33 @@
   font-size: 2rem !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .myImg {
-    height: 350px;
+    width: 100%;
+    margin: auto;
   }
+}
+@media screen and (max-width: 768px) {
+  /* .myImg {
+    width: 100%;
+    margin: auto;
+  } */
 
   /* .iPadSpacing {
     width: 100%;
   } */
 }
 
-@media screen and (max-width: 411px) {
+/* @media screen and (max-width: 411px) {
   .myImg {
-    height: 350px;
+    width: 100%;
+    margin: auto;
   }
 }
 
 @media screen and (max-width: 320px) {
   .myImg {
-    height: 300px;
+    width: 100%;
+    margin: auto;
   }
-}
+} */
