@@ -6,10 +6,10 @@ import "./About.css";
 
 const About = () => (
   <div>
-    <Nav />
     <Container fluid>
+      <Nav />
       <Row>
-        <Col size="xl-4 lg-4 md-5 sm-12">
+        <Col size="xl-3 lg-4 md-5 sm-12">
           <div className="center-align">
             <Row>
               <div>
@@ -22,7 +22,7 @@ const About = () => (
             </Row>
           </div>
         </Col>
-        <Col size="xl-8 lg-8 md-7 sm-12">
+        <Col size="xl-9 lg-8 md-7 sm-12">
           <Row>
             <Typography
               variant="h5"

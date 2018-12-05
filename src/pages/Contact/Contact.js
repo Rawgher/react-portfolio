@@ -6,8 +6,8 @@ import "./Contact.css";
 
 const Contact = () => (
   <div>
-    <Nav />
     <Container fluid>
+      <Nav />
       <Row>
         <Col size="lg-5 md-5 sm-12">
           <Typography variant="h4" gutterBottom>

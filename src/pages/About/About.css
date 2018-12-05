@@ -1,6 +1,7 @@
 .myImg {
   display: block;
   margin: auto;
+  width: 100%;
 }
 
 .line-height {
