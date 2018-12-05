@@ -11,6 +11,7 @@ import JustImage from "../../components/JustImage";
 import { Col, Row, Container } from "../../components/Grid";
 import Typography from "@material-ui/core/Typography";
 import ScrollUp from "../../components/ScrollUp";
+import Icons from "../../components/Icons";
 import "./Portfolio.css";
 class Portfolio extends React.Component {
   state = {
@@ -76,6 +77,9 @@ class Portfolio extends React.Component {
             Other Projects
           </Typography>
         </Row>
+        {/* <Row>
+          <Icons />
+        </Row> */}
         <div>
           <Row>
             {this.state.images.map(images => (

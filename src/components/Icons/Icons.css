@@ -1,0 +1,23 @@
+.iconImg {
+  width: 100px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.expressLogo {
+  width: 190px;
+  margin-right: -20px;
+  margin-left: 0px;
+}
+
+.reactLogo {
+  width: 190px;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
+.twoLogos {
+  width: 190px;
+  border-radius: 60px;
+}
