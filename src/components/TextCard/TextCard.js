@@ -6,11 +6,9 @@ import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import "./TextCard.css";
 
 const styles = {
-  card: {
-    minWidth: 275
-  },
   title: {
     fontSize: 42
   },
@@ -24,7 +22,7 @@ function SimpleCard(props) {
   const { classes } = props;
 
   return (
-    <Card className={classes.card}>
+    <Card className="cardBody divHeight">
       <CardContent>
         <Typography className={classes.title} color="textPrimary" gutterBottom>
           {props.name}
