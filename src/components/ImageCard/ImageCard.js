@@ -21,13 +21,13 @@ function MediaCard(props) {
       <div className="center-align">
         <img className="portimg" src={props.image} alt={props.alt} />
       </div>
-      <CardContent>
+      <CardContent className="positioning">
         <Typography gutterBottom variant="h5" component="h2">
           {props.name}
         </Typography>
         <Typography component="p">{props.description}</Typography>
       </CardContent>
-      <CardActions>
+      <CardActions className="buttonHolder">
         <Button size="small" color="primary" href={props.githubURL}>
           Github Repo
         </Button>

@@ -7,3 +7,12 @@
   height: 470px;
   margin-bottom: 1rem;
 }
+
+.positioning {
+  position: relative;
+}
+
+.buttonHolder {
+  position: absolute;
+  bottom: 10px;
+}

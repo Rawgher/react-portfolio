@@ -5,3 +5,12 @@
 .divHeight {
   height: 333px;
 }
+
+.textPositioning {
+  position: relative;
+}
+
+.textButtonHolder {
+  position: absolute;
+  bottom: 10px;
+}

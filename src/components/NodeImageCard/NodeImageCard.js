@@ -13,13 +13,13 @@ function MediaCard(props) {
       <div className="center-align">
         <img className="nodeimg" src={props.image} alt={props.alt} />
       </div>
-      <CardContent>
+      <CardContent className="nodePositioning">
         <Typography gutterBottom variant="h5" component="h2">
           {props.name}
         </Typography>
         <Typography component="p">{props.description}</Typography>
       </CardContent>
-      <CardActions>
+      <CardActions className="nodeButtonHolder">
         <Button size="small" color="primary" href={props.githubURL}>
           Github Repo
         </Button>

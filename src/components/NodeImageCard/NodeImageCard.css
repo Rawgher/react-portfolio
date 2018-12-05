@@ -7,3 +7,12 @@
   height: 450px;
   margin-bottom: 1rem;
 }
+
+.nodePositioning {
+  position: relative;
+}
+
+.nodeButtonHolder {
+  position: absolute;
+  bottom: 10px;
+}

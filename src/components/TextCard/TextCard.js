@@ -23,7 +23,7 @@ function SimpleCard(props) {
 
   return (
     <Card className="cardBody divHeight">
-      <CardContent>
+      <CardContent className="textPositioning">
         <Typography className={classes.title} color="textPrimary" gutterBottom>
           {props.name}
         </Typography>
@@ -31,9 +31,13 @@ function SimpleCard(props) {
           {props.description}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Deployed</Button>
-        <Button size="small">Github Repo</Button>
+      <CardActions className="textButtonHolder">
+        <Button size="small" color="primary">
+          Deployed
+        </Button>
+        <Button size="small" color="primary">
+          Github Repo
+        </Button>
       </CardActions>
     </Card>
   );
