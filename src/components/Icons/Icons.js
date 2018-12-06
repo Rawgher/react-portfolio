@@ -6,38 +6,38 @@ class Icons extends React.Component {
   render() {
     return (
       <div className="mx-auto">
-        <Button disableRipple="true">
+        <Button disableRipple="true" disableTouchRipple="true" onClick={this.props.expressClick}>
           <img
             src="./images/express-logo.png"
             alt="Express"
             className="iconImg expressLogo"
           />
         </Button>
-        <Button disableRipple="true" disableTouchRipple="true">
+        <Button disableRipple="true" disableTouchRipple="true" onClick={this.props.mySQLClick}>
           <img src="./images/mysql-logo.png" alt="mySQL" className="iconImg" />
         </Button>
-        <Button disableRipple="true" disableTouchRipple="true">
+        <Button disableRipple="true" disableTouchRipple="true" onClick={this.props.mongoClick}>
           <img
             src="./images/mongo-logo.png"
             alt="mongoDB"
             className="iconImg"
           />
         </Button>
-        <Button disableRipple="true" disableTouchRipple="true">
+        <Button disableRipple="true" disableTouchRipple="true" onClick={this.props.handlebarsClick}>
           <img
             src="./images/moustache.svg"
             alt="Handlebars"
             className="iconImg"
           />
         </Button>
-        <Button disableRipple="true" disableTouchRipple="true">
+        <Button disableRipple="true" disableTouchRipple="true" onClick={this.props.reactClick}>
           <img
             src="./images/react-logo.svg"
             alt="React"
             className="iconImg reactLogo"
           />
         </Button>
-        <Button disableRipple="true" disableTouchRipple="true">
+        <Button disableRipple="true" disableTouchRipple="true" onClick={this.props.htmlClick}>
           <img
             src="./images/html-5-badge.svg"
             alt="HTML"
@@ -49,7 +49,7 @@ class Icons extends React.Component {
           alt="Node"
           className="iconImg twoLogos"
         /> */}
-        <Button disableRipple="true" disableTouchRipple="true">
+        <Button disableRipple="true" disableTouchRipple="true" onClick={this.props.refreshClick}>
           <img
             src="./images/rotate.svg"
             alt="refresh"

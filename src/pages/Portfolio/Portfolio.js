@@ -27,9 +27,37 @@ class Portfolio extends React.Component {
   state = {
     high1,
     high2,
-    images,
+    images: images,
     node
   };
+
+  expressClick = () => {
+    this.setState({ images: express})
+  }
+
+  mySQLClick = () => {
+    this.setState({ images: mysql})
+  }
+
+  mongoClick = () => {
+    this.setState({ images: mongo})
+  }
+
+  handlebarsClick = () => {
+    this.setState({ images: handlebars})
+  }
+
+  reactClick = () => {
+    this.setState({ images: react})
+  }
+  
+  htmlClick = () => {
+    this.setState({ images: html})
+  }
+  
+  refreshClick = () => {
+    this.setState({ images: images})
+  }
 
   render() {
     return (
@@ -88,7 +116,14 @@ class Portfolio extends React.Component {
           </Typography>
         </Row>
         <Row>
-          <Icons />
+          <Icons 
+          expressClick = {this.expressClick}
+          mySQLClick = {this.mySQLClick}
+          mongoClick = {this.mongoClick}
+          handlebarsClick = {this.handlebarsClick}
+          reactClick = {this.reactClick}
+          htmlClick = {this.htmlClick}
+          refreshClick = {this.refreshClick}/>
         </Row>
         <div>
           <Row>
