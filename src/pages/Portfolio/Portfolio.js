@@ -4,6 +4,12 @@ import high1 from "../../json/highlight.json";
 import high2 from "../../json/highlight2.json";
 import images from "../../json/image.json";
 import node from "../../json/node.json";
+import express from "../../json/express.json"
+import handlebars from "../../json/handlebars.json"
+import html from "../../json/html.json"
+import mongo from "../../json/mongo.json"
+import mysql from "../../json/mysql.json"
+import react from "../../json/react.json"
 import ImageCard from "../../components/ImageCard";
 import NodeImageCard from "../../components/NodeImageCard";
 import TextCard from "../../components/TextCard";
