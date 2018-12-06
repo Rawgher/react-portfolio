@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1235,
+        "name": "One Stop Code Shop",
+        "image": "./images/final_code_shop.png",
+        "description": "This is the Full Stack Mern App containing the combined version of One Stop Code Shop and it's associated forum. Users will be able to complete a consolidated coding search and use our forum to get help from the community. Please use demo for both the username and password to test the site.",
+        "techUsed": "React JS, CSS, Node JS, Express",
+        "githubURL": "https://github.com/Rawgher/OSCS",
+        "deployedURL": "https://onestopcodeshop.herokuapp.com/",
+        "alt": "One Stop Code Shop - Final"
+      },
+      {
+        "id": 231,
+        "name": "React Clicky Game",
+        "image": "./images/react-clicky-game.png",
+        "description": "A memory game where the user has to click each of the twelve Spiderman costumes only once. The images shuffle on click which makes it harder than it looks. The users previous high score is saved when they lose a game, and will not update until they beat their last high score.",
+        "techUsed": "React JS, CSS, Node JS",
+        "githubURL": "https://github.com/Rawgher/react-clicky-game",
+        "deployedURL": "https://rawgher.github.io/react-clicky-game/",
+        "alt": "React Clicky Game"
+      },
+      {
+        "id": 42323,
+        "name": "NYT React",
+        "image": "./images/nyt.png",
+        "description": "An application that utilizes the New York Times API to pull articles from the users choice of topic and date range. The user can then save an article to a mongo database, or delete the article.",
+        "githubURL": "https://github.com/Rawgher/nytreact",
+        "deployedURL": "https://peaceful-headland-96719.herokuapp.com/",
+        "alt": "NYT React"
+      },
+]

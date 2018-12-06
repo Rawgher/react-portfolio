@@ -1,0 +1,21 @@
+[
+    {
+        "id": 223,
+        "name": "Eat-Dat-Burger",
+        "image": "./images/burger.PNG",
+        "description": "An application the allows the user to input different hamburgers they would like to try. All burgers are stored on a mySQL database. The user can save the burger they ate to their burger hall of fame, or choose to delete it right away and hopefully forget they ever ate it.",
+        "techUsed": "Handlebars, CSS, mySQL, Node JS, Express",
+        "githubURL": "https://github.com/Rawgher/eat-dat-burger",
+        "deployedURL": "https://vast-ravine-14329.herokuapp.com/",
+        "alt": "Eat-Dat-Burger"
+      },
+      {
+        "id": 523,
+        "name": "One Stop Code Shop - Forum",
+        "image": "./images/code-shop-2.PNG",
+        "description": "A site that allows users to communicate with each other through forum posts and a chat. Please use demo and demo as login info to view the site. I worked on the overall handlebars set up for each page and the routing to connect mySQL to the site.",
+        "githubURL": "https://github.com/Rawgher/One-Stop-Code-Shop-Forum",
+        "deployedURL": "https://tranquil-spire-77467.herokuapp.com/",
+        "alt": "One Stop Code Shop - Forum"
+      },
+]

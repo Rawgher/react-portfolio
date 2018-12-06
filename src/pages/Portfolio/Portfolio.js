@@ -11,8 +11,12 @@ import JustImage from "../../components/JustImage";
 import { Col, Row, Container } from "../../components/Grid";
 import Typography from "@material-ui/core/Typography";
 import ScrollUp from "../../components/ScrollUp";
+import { Link } from "react-router-dom";
 import Icons from "../../components/Icons";
 import "./Portfolio.css";
+
+
+
 class Portfolio extends React.Component {
   state = {
     high1,
@@ -30,7 +34,7 @@ class Portfolio extends React.Component {
             Hey there, I'm Roger. I'm a Full Stack Web Developer looking for
             work. Below are images, links and descriptions for some of the
             projects I have been working on. Feel free to reach out to me. My
-            info is on the <a href="/Contact">Contact</a> Page.
+            info is on the <Link to="/Contact">Contact</Link> Page.
           </Typography>
         </Row>
         <Row>
@@ -77,9 +81,9 @@ class Portfolio extends React.Component {
             Other Projects
           </Typography>
         </Row>
-        {/* <Row>
+        <Row>
           <Icons />
-        </Row> */}
+        </Row>
         <div>
           <Row>
             {this.state.images.map(images => (

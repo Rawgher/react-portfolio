@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Nav.css";
 import logo from "./nav-image/letter-r.svg";
 
@@ -8,21 +9,21 @@ class NavTabs extends React.Component {
       <div className="navbar">
         <nav>
           <div className="nav-wrapper">
-            <a href="/" className="brand-logo">
+            <Link to="/" className="brand-logo">
               <div>
                 <img src={logo} alt="R-Logo" className="maxSize" />
                 {/* thank you Freepik from Flaticon.com for the logo */}
               </div>
-            </a>
+            </Link>
             <ul id="nav-mobile" className="right">
               <li>
-                <a href="/">Portfolio</a>
+                <Link to="/">Portfolio</Link>
               </li>
               <li>
-                <a href="/About">About</a>
+                <Link to="/About">About</Link>
               </li>
               <li>
-                <a href="/Contact">Contact</a>
+                <Link to="/Contact">Contact</Link>
               </li>
             </ul>
           </div>
