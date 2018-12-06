@@ -37,6 +37,13 @@ class Icons extends React.Component {
             className="iconImg reactLogo"
           />
         </Button>
+        <Button disableRipple="true" disableTouchRipple="true">
+          <img
+            src="./images/html-5-badge.svg"
+            alt="HTML"
+            className="iconImg"
+          />
+        </Button>
         {/* <img
           src="./images/node-logo.png"
           alt="Node"

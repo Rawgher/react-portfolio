@@ -1,0 +1,65 @@
+[
+    {
+        "id": 236,
+        "name": "Friend Finder",
+        "image": "./images/friend-finder.PNG",
+        "description": "An application where a user can answer questions to connect with another user with similar interests. Information is stored in a json file which is then compared to the users form inputs.",
+        "githubURL": "https://github.com/Rawgher/Friend-Finder",
+        "deployedURL": "https://polar-basin-62063.herokuapp.com/",
+        "alt": "Friend Finder"
+      },
+      {
+        "id": 712,
+        "name": "One Stop Code Shop",
+        "image": "./images/one_code.PNG",
+        "description": "A site for coders to search for answers to a question all on one page. Press the Youtube and Stack Overflow icons at the top, press a radio button for one of the coding languages, and then input your related question in the search bar. The responses will show up below.",
+        "githubURL": "https://github.com/Rawgher/One-Stop-Code-Shop",
+        "deployedURL": "https://eneaantonicelli.github.io/Project1/index.html",
+        "alt": "One Stop Code Shop"
+      },
+      {
+        "id": 3128,
+        "name": "Overwatch RPG",
+        "image": "./images/overwatch_RPG.PNG",
+        "description": "The app begins with the user selecting a map and a hero. The user then chooses their opponent as they fight their way to victory or defeat.",
+        "githubURL": "https://github.com/Rawgher/Overwatch-RPG",
+        "deployedURL": "https://rawgher.github.io/Overwatch-RPG/",
+        "alt": "Overwatch RPG"
+      },
+      {
+        "id": 923,
+        "name": "Parks & Rec Trivia Game",
+        "image": "./images/trivia.PNG",
+        "description": "A trivia game that can stump the biggest Parks & Recreations fan.",
+        "githubURL": "https://github.com/Rawgher/Parks-and-Rec-Trivia-Game",
+        "deployedURL": "https://rawgher.github.io/Parks-and-Rec-Trivia-Game/",
+        "alt": "Parks & Rec Trivia Game"
+      },
+      {
+        "id": 1011,
+        "name": "Giphy Generator",
+        "image": "./images/giphy_API.PNG",
+        "description": "An application that allows the user to input their favorite superhero, which will create a button. After clicking this button, new gifs will generate on the page. These gifs will start on click and pause when they are clicked a second time.",
+        "githubURL": "https://github.com/Rawgher/Giphy-Generator",
+        "deployedURL": "https://rawgher.github.io/Giphy-Generator/",
+        "alt": "Giphy Generator"
+      },
+      {
+        "id": 1321,
+        "name": "Battle Royale Hangman",
+        "image": "./images/hangman.PNG",
+        "description": "A word guess game using battle royale game titles. Guess the game and you will see an image and short blurb about it.",
+        "githubURL": "https://github.com/Rawgher/Battle-Royale-Hangman",
+        "deployedURL": "https://rawgher.github.io/Battle-Royale-Hangman/",
+        "alt": "Battle Royale Hangman"
+      },
+      {
+        "id": 1142,
+        "name": "Train Scheduler",
+        "image": "./images/train-schedule.PNG",
+        "description": "An application that allows you to add trains and their schedules to a firebase database. The application will then tell you when the next train is coming depending on the current time.",
+        "githubURL": "https://github.com/Rawgher/Train-Scheduler",
+        "deployedURL": "https://rawgher.github.io/Train-Scheduler/",
+        "alt": "Train Scheduler"
+      }
+]
