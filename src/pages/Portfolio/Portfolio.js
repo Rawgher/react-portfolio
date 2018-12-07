@@ -112,7 +112,7 @@ class Portfolio extends React.Component {
         </Row>
         <Row>
           <Typography variant="h5" gutterBottom>
-            Other Projects
+            Other Projects (Click an icon to see language specific projects)
           </Typography>
         </Row>
         <Row>
