@@ -10,10 +10,9 @@ const Contact = () => (
       <Nav />
       <Row>
         <Col size="lg-5 md-5 sm-12">
-          <Typography variant="h4" gutterBottom>
+          {/* <Typography variant="h4" gutterBottom>
             Reach out to me if you have some time!
-          </Typography>
-
+          </Typography> */}
           <Row>
             <img
               src="./images/github-logo.svg"
