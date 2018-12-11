@@ -3,7 +3,7 @@
     "id": 231,
     "name": "One Stop Code Shop",
     "image": "./images/final_code_shop.png",
-    "description": "This is the Full Stack Mern App containing the combined version of One Stop Code Shop and it's associated forum. Users will be able to complete a consolidated coding search and use our forum to get help from the community. Please use demo for both the username and password to test the site.",
+    "description": "This is the Full Stack Mern App containing the combined version of One Stop Code Shop and it's associated forum. Users will be able to complete a consolidated coding search and use our forum to get help from the community. Username: demo Password: demo",
     "techUsed": "React JS, CSS, Node JS, Express",
     "githubURL": "https://github.com/Rawgher/OSCS",
     "deployedURL": "https://onestopcodeshop.herokuapp.com/",
