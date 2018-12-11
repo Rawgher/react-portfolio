@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../../components/Nav";
 import Typography from "@material-ui/core/Typography";
+import AboutLogos from "../../components/AboutLogos";
 import { Col, Row, Container } from "../../components/Grid";
 import "./About.css";
 
@@ -62,7 +63,10 @@ const About = () => (
           Technologies Known
         </Typography>
       </Row>
-      <Typography variant="h6" gutterBottom>
+      <Row>
+        <AboutLogos />
+      </Row>
+      {/* <Typography variant="h6" gutterBottom>
         <Row>
           <Col size="md-2 sm-1">
             <ul>
@@ -85,7 +89,7 @@ const About = () => (
             </ul>
           </Col>
         </Row>
-      </Typography>
+      </Typography> */}
     </Container>
   </div>
 );
