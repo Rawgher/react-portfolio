@@ -63,10 +63,11 @@ class Portfolio extends React.Component {
         <Nav />
         <Row>
           <Typography variant="h4" gutterBottom>
-            Hey there, I'm Roger, a Full Stack Web Developer. Below are images,
-            links and descriptions for some of the projects I have been working
-            on. Feel free to reach out to me. My info is on the{" "}
-            <Link to="/Contact">Contact</Link> Page.
+            Hey there, I'm Roger, a Full Stack Web Developer. I'm extremely
+            passionate about back end coding. Below are images, links and
+            descriptions for some of the projects I have been working on. Feel
+            free to reach out to me with the info from my{" "}
+            <Link to="/Contact">contact</Link> page.
           </Typography>
         </Row>
         <Row>
