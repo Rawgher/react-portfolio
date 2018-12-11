@@ -4,12 +4,12 @@ import high1 from "../../json/highlight.json";
 import high2 from "../../json/highlight2.json";
 import images from "../../json/image.json";
 import node from "../../json/node.json";
-import express from "../../json/express.json"
-import handlebars from "../../json/handlebars.json"
-import html from "../../json/html.json"
-import mongo from "../../json/mongo.json"
-import mysql from "../../json/mysql.json"
-import react from "../../json/react.json"
+import express from "../../json/express.json";
+import handlebars from "../../json/handlebars.json";
+import html from "../../json/html.json";
+import mongo from "../../json/mongo.json";
+import mysql from "../../json/mysql.json";
+import react from "../../json/react.json";
 import ImageCard from "../../components/ImageCard";
 import NodeImageCard from "../../components/NodeImageCard";
 import TextCard from "../../components/TextCard";
@@ -21,8 +21,6 @@ import { Link } from "react-router-dom";
 import Icons from "../../components/Icons";
 import "./Portfolio.css";
 
-
-
 class Portfolio extends React.Component {
   state = {
     high1,
@@ -32,32 +30,32 @@ class Portfolio extends React.Component {
   };
 
   expressClick = () => {
-    this.setState({ images: express})
-  }
+    this.setState({ images: express });
+  };
 
   mySQLClick = () => {
-    this.setState({ images: mysql})
-  }
+    this.setState({ images: mysql });
+  };
 
   mongoClick = () => {
-    this.setState({ images: mongo})
-  }
+    this.setState({ images: mongo });
+  };
 
   handlebarsClick = () => {
-    this.setState({ images: handlebars})
-  }
+    this.setState({ images: handlebars });
+  };
 
   reactClick = () => {
-    this.setState({ images: react})
-  }
-  
+    this.setState({ images: react });
+  };
+
   htmlClick = () => {
-    this.setState({ images: html})
-  }
-  
+    this.setState({ images: html });
+  };
+
   refreshClick = () => {
-    this.setState({ images: images})
-  }
+    this.setState({ images: images });
+  };
 
   render() {
     return (
@@ -65,10 +63,10 @@ class Portfolio extends React.Component {
         <Nav />
         <Row>
           <Typography variant="h4" gutterBottom>
-            Hey there, I'm Roger. I'm a Full Stack Web Developer looking for
-            work. Below are images, links and descriptions for some of the
-            projects I have been working on. Feel free to reach out to me. My
-            info is on the <Link to="/Contact">Contact</Link> Page.
+            Hey there, I'm Roger, a Full Stack Web Developer. Below are images,
+            links and descriptions for some of the projects I have been working
+            on. Feel free to reach out to me. My info is on the{" "}
+            <Link to="/Contact">Contact</Link> Page.
           </Typography>
         </Row>
         <Row>
@@ -116,14 +114,15 @@ class Portfolio extends React.Component {
           </Typography>
         </Row>
         <Row>
-          <Icons 
-          expressClick = {this.expressClick}
-          mySQLClick = {this.mySQLClick}
-          mongoClick = {this.mongoClick}
-          handlebarsClick = {this.handlebarsClick}
-          reactClick = {this.reactClick}
-          htmlClick = {this.htmlClick}
-          refreshClick = {this.refreshClick}/>
+          <Icons
+            expressClick={this.expressClick}
+            mySQLClick={this.mySQLClick}
+            mongoClick={this.mongoClick}
+            handlebarsClick={this.handlebarsClick}
+            reactClick={this.reactClick}
+            htmlClick={this.htmlClick}
+            refreshClick={this.refreshClick}
+          />
         </Row>
         <div>
           <Row>
