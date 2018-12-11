@@ -86,6 +86,7 @@ class Portfolio extends React.Component {
               <TextCard
                 name={high1.name}
                 description={high1.description}
+                login={high1.login}
                 githubURL={high1.githubURL}
                 deployedURL={high1.deployedURL}
               />

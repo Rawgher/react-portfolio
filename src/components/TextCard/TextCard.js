@@ -13,7 +13,7 @@ const styles = {
     fontSize: 42
   },
   pos: {
-    marginBottom: 30,
+    // marginBottom: 30,
     fontSize: 22
   }
 };
@@ -29,6 +29,9 @@ function SimpleCard(props) {
         </Typography>
         <Typography className={classes.pos} color="textPrimary">
           {props.description}
+        </Typography>
+        <Typography className={classes.pos} color="textPrimary">
+          <em>{props.login}</em>
         </Typography>
       </CardContent>
       <CardActions className="textButtonHolder">
