@@ -28,10 +28,22 @@ function MediaCard(props) {
         <Typography component="p">{props.description}</Typography>
       </CardContent>
       <CardActions className="buttonHolder">
-        <Button size="small" color="primary" href={props.githubURL}>
+        <Button
+          size="small"
+          color="primary"
+          href={props.githubURL}
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           Github Repo
         </Button>
-        <Button size="small" color="primary" href={props.deployedURL}>
+        <Button
+          size="small"
+          color="primary"
+          href={props.deployedURL}
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           Deployed URL
         </Button>
       </CardActions>

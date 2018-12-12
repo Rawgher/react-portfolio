@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../../components/Nav";
 import { Row, Container, Col } from "../../components/Grid";
-import Typography from "@material-ui/core/Typography";
+// import Typography from "@material-ui/core/Typography";
 import "./Contact.css";
 
 const Contact = () => (

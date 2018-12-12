@@ -35,11 +35,23 @@ function SimpleCard(props) {
         </Typography>
       </CardContent>
       <CardActions className="textButtonHolder">
-        <Button size="small" color="primary">
-          Deployed
-        </Button>
-        <Button size="small" color="primary">
+        <Button
+          size="small"
+          color="primary"
+          href={props.githubURL}
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           Github Repo
+        </Button>
+        <Button
+          size="small"
+          color="primary"
+          href={props.deployedURL}
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Deployed URL
         </Button>
       </CardActions>
     </Card>
