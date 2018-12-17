@@ -10,9 +10,6 @@ const Contact = () => (
       <Nav />
       <Row>
         <Col size="lg-5 md-5 sm-12">
-          {/* <Typography variant="h4" gutterBottom>
-            Reach out to me if you have some time!
-          </Typography> */}
           <Row>
             <img
               src="./images/github-logo.svg"
@@ -52,13 +49,15 @@ const Contact = () => (
             </a>
           </Row>
         </Col>
-        <Col size="lg-7 md-7 sm-12">
-          <embed
-            src="./images/resume.pdf"
-            type="application/pdf"
-            className="pdf"
-          />
-        </Col>
+        <div className="hideResume">
+          <Col size="lg-7 md-7 sm-12">
+            <embed
+              src="./images/resume.pdf"
+              type="application/pdf"
+              className="pdf"
+            />
+          </Col>
+        </div>
       </Row>
     </Container>
   </div>
