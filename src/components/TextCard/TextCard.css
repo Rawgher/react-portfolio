@@ -14,3 +14,21 @@
   position: absolute;
   bottom: 10px;
 }
+
+.textPos {
+  font-size: 22px;
+}
+
+.textTitle {
+  font-size: 42px;
+}
+
+@media screen and (max-width: 1024px) {
+  .textPos {
+    font-size: 18px !important;
+  }
+
+  .textTitle {
+    font-size: 42px !important;
+  }
+}
