@@ -16,11 +16,11 @@
 }
 
 .textPos {
-  font-size: 22px;
+  font-size: 22px !important;
 }
 
 .textTitle {
-  font-size: 42px;
+  font-size: 42px !important;
 }
 
 @media screen and (max-width: 1024px) {
@@ -44,5 +44,29 @@
 
   .textTitle {
     font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .textPos {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .textPos {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .textPos {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .textPos {
+    font-size: 12px !important;
   }
 }

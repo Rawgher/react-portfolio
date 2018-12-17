@@ -26,3 +26,33 @@
     font-size: 11px !important;
   }
 }
+
+@media screen and (max-width: 414px) {
+  .nodeImageTitle {
+    font-size: 18px !important;
+  }
+
+  .nodeImageDesc {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .nodeImageTitle {
+    font-size: 16px !important;
+  }
+
+  .nodeImageDesc {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .nodeImageTitle {
+    font-size: 14px !important;
+  }
+
+  .nodeImageDesc {
+    font-size: 12px !important;
+  }
+}

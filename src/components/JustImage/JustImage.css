@@ -8,3 +8,9 @@
     height: 250px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .imageCardSize {
+    width: 100%;
+  }
+}

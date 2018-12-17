@@ -16,3 +16,20 @@
     font-size: 1.5rem !important;
   }
 }
+
+@media screen and (max-width: 411px) {
+  .portSmallerFont {
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .col-sm-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
