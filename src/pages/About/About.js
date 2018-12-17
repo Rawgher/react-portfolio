@@ -66,30 +66,6 @@ const About = () => (
       <Row>
         <AboutLogos />
       </Row>
-      {/* <Typography variant="h6" gutterBottom>
-        <Row>
-          <Col size="md-2 sm-1">
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Javascript</li>
-              <li>JQuery</li>
-              <li>Bootstrap</li>
-              <li>Firebase</li>
-            </ul>
-          </Col>
-          <Col size="md-2 sm-1">
-            <ul>
-              <li>Node Js</li>
-              <li>MySQL</li>
-              <li>MongoDB</li>
-              <li>Express</li>
-              <li>Handlebars JS</li>
-              <li>React Js</li>
-            </ul>
-          </Col>
-        </Row>
-      </Typography> */}
     </Container>
   </div>
 );

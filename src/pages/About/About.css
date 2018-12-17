@@ -26,16 +26,9 @@
   } */
 }
 
-/* @media screen and (max-width: 411px) {
-  .myImg {
-    width: 100%;
-    margin: auto;
+@media screen and (max-width: 411px) {
+  .line-height {
+    line-height: 2rem !important;
+    font-size: 1rem !important;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .myImg {
-    width: 100%;
-    margin: auto;
-  }
-} */
