@@ -49,15 +49,16 @@ const Contact = () => (
             </a>
           </Row>
         </Col>
-        <div className="hideResume">
-          <Col size="lg-7 md-7 sm-12">
+
+        <Col size="lg-7 md-7 sm-12">
+          <div className="hideResume">
             <embed
               src="./images/resume.pdf"
               type="application/pdf"
               className="pdf"
             />
-          </Col>
-        </div>
+          </div>
+        </Col>
       </Row>
     </Container>
   </div>
