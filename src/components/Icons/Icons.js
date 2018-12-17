@@ -5,7 +5,7 @@ import "./Icons.css";
 class Icons extends React.Component {
   render() {
     return (
-      <div className="mx-auto">
+      <div className="mx-auto center">
         <Button
           disableRipple="true"
           disableTouchRipple="true"

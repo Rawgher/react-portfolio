@@ -111,21 +111,26 @@ class Portfolio extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Typography variant="h5" gutterBottom>
-            Other Projects (click an icon to see language specific projects)
-          </Typography>
+          <Typography variant="h5">Other Projects</Typography>
         </Row>
-        <Row>
-          <Icons
-            expressClick={this.expressClick}
-            mySQLClick={this.mySQLClick}
-            mongoClick={this.mongoClick}
-            handlebarsClick={this.handlebarsClick}
-            reactClick={this.reactClick}
-            htmlClick={this.htmlClick}
-            refreshClick={this.refreshClick}
-          />
-        </Row>
+        <div className="hideIt">
+          <Row>
+            <Typography variant="h5" gutterBottom>
+              (Click an icon to see language specific projects)
+            </Typography>
+          </Row>
+          <Row>
+            <Icons
+              expressClick={this.expressClick}
+              mySQLClick={this.mySQLClick}
+              mongoClick={this.mongoClick}
+              handlebarsClick={this.handlebarsClick}
+              reactClick={this.reactClick}
+              htmlClick={this.htmlClick}
+              refreshClick={this.refreshClick}
+            />
+          </Row>
+        </div>
         <div>
           <Row>
             {this.state.images.map(images => (
