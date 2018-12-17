@@ -4,7 +4,7 @@ import "./AboutLogos.css";
 class AboutLogos extends React.Component {
   render() {
     return (
-      <div className="mx-auto">
+      <div className="mx-auto center">
         <img
           src="./images/html-5-badge.svg"
           alt="HTML"
@@ -26,12 +26,12 @@ class AboutLogos extends React.Component {
         <img
           src="./images/express-logo.png"
           alt="Express"
-          className="aboutIconImg aboutExpressLogo"
+          className="aboutIconImg aboutExpressLogo marginSpacing"
         />
         <img
           src="./images/mysql-logo.png"
           alt="mySQL"
-          className="aboutIconImg"
+          className="aboutIconImg marginSpacingTwo"
         />
         <img
           src="./images/mongo-logo.png"
@@ -41,7 +41,7 @@ class AboutLogos extends React.Component {
         <img
           src="./images/moustache.svg"
           alt="Handlebars"
-          className="aboutIconImg"
+          className="aboutIconImg marginSpacingThree"
         />
         <img
           src="./images/react-logo.svg"
