@@ -14,10 +14,17 @@ function MediaCard(props) {
         <img className="nodeimg" src={props.image} alt={props.alt} />
       </div>
       <CardContent className="nodePositioning">
-        <Typography gutterBottom variant="h5" component="h2">
+        <Typography
+          gutterBottom
+          variant="h5"
+          component="h2"
+          className="nodeImageTitle"
+        >
           {props.name}
         </Typography>
-        <Typography component="p">{props.description}</Typography>
+        <Typography component="p" className="nodeImageDesc">
+          {props.description}
+        </Typography>
       </CardContent>
       <CardActions className="nodeButtonHolder">
         <Button

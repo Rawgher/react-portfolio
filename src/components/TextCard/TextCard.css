@@ -32,3 +32,17 @@
     font-size: 42px !important;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .divHeight {
+    height: 250px;
+  }
+
+  .textPos {
+    font-size: 14px !important;
+  }
+
+  .textTitle {
+    font-size: 16px !important;
+  }
+}

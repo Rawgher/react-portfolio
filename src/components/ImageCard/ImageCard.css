@@ -16,3 +16,13 @@
   position: absolute;
   bottom: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .imageCardTitle {
+    font-size: 14px !important;
+  }
+
+  .imageCardDesc {
+    font-size: 12px !important;
+  }
+}

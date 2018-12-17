@@ -35,7 +35,7 @@ nav,
 @media screen and (max-width: 768px) {
   .brand-logo {
     left: 0% !important;
-    margin-left: 20px;
+    margin-left: -2px;
   }
 
   .navbar {

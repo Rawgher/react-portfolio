@@ -62,7 +62,7 @@ class Portfolio extends React.Component {
       <Container fluid>
         <Nav />
         <Row>
-          <Typography variant="h4" gutterBottom>
+          <Typography variant="h4" gutterBottom className="portSmallerFont">
             Hey there, I'm Roger, a Full Stack Web Developer. I'm extremely
             passionate about back end coding. Below are images, links and
             descriptions for some of the projects I have been working on. Feel
@@ -170,7 +170,7 @@ class Portfolio extends React.Component {
           ))}
         </Row>
         <Row>
-          <Typography variant="h5" gutterBottom>
+          <Typography variant="h5" gutterBottom className="portSmallerFont">
             Other work can be found on my{" "}
             <a
               href="https://github.com/Rawgher"

@@ -16,3 +16,13 @@
   position: absolute;
   bottom: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .nodeImageTitle {
+    font-size: 14px !important;
+  }
+
+  .nodeImageDesc {
+    font-size: 11px !important;
+  }
+}

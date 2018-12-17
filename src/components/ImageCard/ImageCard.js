@@ -1,19 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import { withStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import "./ImageCard.css";
-
-// const styles = {
-//   card: {
-//     width: "50%",
-//     margin: "1rem"
-//   }
-// };
 
 function MediaCard(props) {
   return (
@@ -22,10 +14,17 @@ function MediaCard(props) {
         <img className="portimg" src={props.image} alt={props.alt} />
       </div>
       <CardContent className="positioning">
-        <Typography gutterBottom variant="h5" component="h2">
+        <Typography
+          gutterBottom
+          variant="h5"
+          component="h2"
+          className="imageCardTitle"
+        >
           {props.name}
         </Typography>
-        <Typography component="p">{props.description}</Typography>
+        <Typography component="p" className="imageCardDesc">
+          {props.description}
+        </Typography>
       </CardContent>
       <CardActions className="buttonHolder">
         <Button

@@ -10,3 +10,9 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .portSmallerFont {
+    font-size: 1.5rem !important;
+  }
+}
