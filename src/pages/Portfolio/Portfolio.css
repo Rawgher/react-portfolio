@@ -5,6 +5,10 @@
   flex-wrap: wrap;
 }
 
+.col-marginBottom {
+  margin-bottom: 2rem;
+}
+
 @media screen and (max-width: 1024px) {
   .hideIt {
     display: none;
