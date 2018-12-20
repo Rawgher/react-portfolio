@@ -53,7 +53,7 @@ const Contact = () => (
         <Col size="lg-7 md-7 sm-12">
           <div className="hideResume">
             <embed
-              src="./images/resume.pdf"
+              src="./images/pender_resume.pdf"
               type="application/pdf"
               className="pdf"
             />
