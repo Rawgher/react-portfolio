@@ -23,6 +23,16 @@
   font-size: 42px !important;
 }
 
+@media screen and (max-width: 1500px) {
+  .textPos {
+    font-size: 20px !important;
+  }
+
+  .textTitle {
+    font-size: 38px !important;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .textPos {
     font-size: 18px !important;
