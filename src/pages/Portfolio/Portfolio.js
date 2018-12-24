@@ -64,10 +64,10 @@ class Portfolio extends React.Component {
         <Row>
           <Typography variant="h4" gutterBottom className="portSmallerFont">
             Hey there, I'm Roger, a Full Stack Web Developer. I'm extremely
-            passionate about back end coding. Below are images, links and
-            descriptions for some of the projects I have been working on. Feel
-            free to reach out to me with the info from my{" "}
-            <Link to="/Contact">contact</Link> page.
+            passionate about building websites from prototype to deployment.
+            Below are images, links and descriptions for some of the projects I
+            have been working on. Feel free to reach out to me with the info
+            from my <Link to="/Contact">contact</Link> page.
           </Typography>
         </Row>
         <Row>

@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import Card from "@material-ui/core/Card";
 import "./JustImage.css";
 
@@ -11,8 +11,8 @@ function MediaCard(props) {
   );
 }
 
-MediaCard.propTypes = {
-  classes: PropTypes.object.isRequired
-};
+// MediaCard.propTypes = {
+//   classes: PropTypes.object.isRequired
+// };
 
 export default MediaCard;
