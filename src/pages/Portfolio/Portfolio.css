@@ -26,15 +26,15 @@
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
-
-  .hideIt {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .portSmallerFont {
     font-size: 1.5rem !important;
+  }
+
+  .hideIt {
+    display: none;
   }
 }
 
