@@ -71,7 +71,7 @@ class Portfolio extends React.Component {
           </Typography>
         </Row>
         <Row>
-          <Typography variant="h5" gutterBottom>
+          <Typography variant="h4" gutterBottom>
             Featured Projects
           </Typography>
         </Row>
@@ -111,7 +111,7 @@ class Portfolio extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Typography variant="h5">Other Projects</Typography>
+          <Typography variant="h4">Other Projects</Typography>
         </Row>
         <div className="hideIt">
           <Row>
@@ -150,7 +150,7 @@ class Portfolio extends React.Component {
           </Row>
         </div>
         <Row>
-          <Typography variant="h5" gutterBottom>
+          <Typography variant="h4" gutterBottom>
             Node Projects
           </Typography>
         </Row>

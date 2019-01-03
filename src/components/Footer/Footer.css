@@ -1,0 +1,22 @@
+.footerPadMar {
+  padding-top: 20px;
+}
+
+.footerLogoSize {
+  width: 20px;
+  height: 20px;
+}
+
+.blackLogo {
+  color: black;
+}
+
+.logoMarTop {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 411px) {
+  .footerFontSize {
+    font-size: 1rem;
+  }
+}

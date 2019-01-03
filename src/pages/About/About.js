@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../../components/Nav";
+// import Footer from "../../components/Footer";
 import Typography from "@material-ui/core/Typography";
 import AboutLogos from "../../components/AboutLogos";
 import { Col, Row, Container } from "../../components/Grid";
@@ -45,7 +46,7 @@ const About = () => (
                 Animal Biology. I'm currently located in Northern California,
                 but I spent the majority of my life down in Los Angeles.
               </Typography>
-              <Typography
+              {/* <Typography
                 variant="h5"
                 gutterBottom
                 className="flow-text line-height"
@@ -53,7 +54,7 @@ const About = () => (
                 I'm a nerdy kid who enjoys comics, spending a lot of time on
                 Netflix and browsing Reddit. I spend too much time bothering and
                 taking pictures of my pets.
-              </Typography>
+              </Typography> */}
             </div>
           </Row>
         </Col>
@@ -66,6 +67,7 @@ const About = () => (
       <Row>
         <AboutLogos />
       </Row>
+      {/* <Footer /> */}
     </Container>
   </div>
 );
