@@ -17,6 +17,36 @@
   bottom: 10px;
 }
 
+@media screen and (max-width: 1275px) {
+  .nodeImageTitle {
+    font-size: 15px !important;
+  }
+
+  .nodeImageDesc {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 1104px) {
+  .nodeImageTitle {
+    font-size: 15px !important;
+  }
+
+  .nodeImageDesc {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .nodeImageTitle {
+    font-size: 14px !important;
+  }
+
+  .nodeImageDesc {
+    font-size: 11px !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .nodeImageTitle {
     font-size: 14px !important;
