@@ -24,6 +24,83 @@
   height: 750px;
 }
 
+@media screen and (max-width: 1342px) {
+  .fontSize {
+    margin-top: 5px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .fontSize {
+    margin-top: 6px;
+    font-size: 29px;
+  }
+}
+
+@media screen and (max-width: 1245px) {
+  .fontSize {
+    margin-top: 7px;
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1221px) {
+  .fontSize {
+    margin-top: 8px;
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 1192px) {
+  .fontSize {
+    margin-top: 8px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 1167px) {
+  .fontSize {
+    margin-top: 8px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1143px) {
+  .fontSize {
+    margin-top: 9px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1119px) {
+  .fontSize {
+    margin-top: 10px;
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 1094px) {
+  .fontSize {
+    margin-top: 11px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .fontSize {
+    margin-top: 11px;
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 1046px) {
+  .fontSize {
+    margin-top: 12px;
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .fontSize {
     margin-top: 4px;
@@ -32,6 +109,76 @@
 
   .hideResume {
     display: none;
+  }
+}
+
+@media screen and (max-width: 973px) {
+  .fontSize {
+    margin-top: 4px;
+    font-size: 29px;
+  }
+}
+
+@media screen and (max-width: 949px) {
+  .fontSize {
+    margin-top: 4px;
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 924px) {
+  .fontSize {
+    margin-top: 5px;
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .fontSize {
+    margin-top: 6px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 876px) {
+  .fontSize {
+    margin-top: 6px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 851px) {
+  .fontSize {
+    margin-top: 7px;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 827px) {
+  .fontSize {
+    margin-top: 8px;
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 803px) {
+  .fontSize {
+    margin-top: 9px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 778px) {
+  .fontSize {
+    margin-top: 10px;
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .fontSize {
+    margin-top: 12px;
+    font-size: 21px;
   }
 }
 
