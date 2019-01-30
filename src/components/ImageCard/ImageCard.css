@@ -17,11 +17,68 @@
   bottom: 10px;
 }
 
+@media screen and (max-width: 1311px) {
+  .imageCardTitle {
+    font-size: 19px !important;
+  }
+}
+
+@media screen and (max-width: 1116px) {
+  .imageCardTitle {
+    font-size: 18px !important;
+  }
+
+  .imageCardDesc {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 1081px) {
+  .imageCardTitle {
+    font-size: 15px !important;
+  }
+
+  .imageCardDesc {
+    font-size: 12px !important;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .imageCardTitle {
     font-size: 14px !important;
   }
 
+  .imageCardDesc {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .imageCardTitle {
+    font-size: 20px !important;
+  }
+
+  .imageCardDesc {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 629px) {
+  .imageCardDesc {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .imageCardDesc {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .imageCardTitle {
+    font-size: 16px !important;
+  }
   .imageCardDesc {
     font-size: 12px !important;
   }

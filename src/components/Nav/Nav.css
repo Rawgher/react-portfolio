@@ -42,3 +42,15 @@ nav,
     padding-left: 1rem;
   }
 }
+
+@media screen and (max-width: 286px) {
+  nav ul a {
+    font-size: 0.75rem !important;
+  }
+}
+
+@media screen and (max-width: 252px) {
+  nav ul a {
+    font-size: 0.5rem !important;
+  }
+}
