@@ -24,7 +24,7 @@
     "name": "NYT React",
     "image": "./images/nyt.png",
     "description": "An application that utilizes the New York Times API to pull articles from the users choice of topic and date range. The user can then save an article to a mongo database, or delete the article.",
-    "githubURL": "https://github.com/Rawgher/nytreact",
+    "githubURL": "https://github.com/Rawgher/NYT_React_Search",
     "deployedURL": "https://peaceful-headland-96719.herokuapp.com/",
     "alt": "NYT React"
   }

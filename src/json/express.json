@@ -14,7 +14,7 @@
     "name": "NYT React",
     "image": "./images/nyt.png",
     "description": "An application that utilizes the New York Times API to pull articles from the users choice of topic and date range. The user can then save an article to a mongo database, or delete the article.",
-    "githubURL": "https://github.com/Rawgher/nytreact",
+    "githubURL": "https://github.com/Rawgher/NYT_React_Search",
     "deployedURL": "https://peaceful-headland-96719.herokuapp.com/",
     "alt": "NYT React"
   },
@@ -22,7 +22,7 @@
     "id": 122,
     "name": "Eat-Dat-Burger",
     "image": "./images/burger.PNG",
-    "description": "An application the allows the user to input different hamburgers they would like to try. All burgers are stored on a mySQL database. The user can save the burger they ate to their burger hall of fame, or choose to delete it right away and hopefully forget they ever ate it. After storing it in the hall of fame, a user can change their mind or make sure to only keep their new top burgers stored.",
+    "description": "An application the allows the user to input different hamburgers they would like to try. All burgers are stored on a mySQL database. The user can save the burger they ate to their burger hall of fame, or choose to delete it right away and hopefully forget they ever ate it.",
     "techUsed": "Handlebars, CSS, mySQL, Node JS, Express",
     "githubURL": "https://github.com/Rawgher/eat-dat-burger",
     "deployedURL": "https://vast-ravine-14329.herokuapp.com/",

@@ -19,13 +19,15 @@
     "alt": "GameScraper"
   },
   {
-    "id": 4,
-    "name": "NYT React",
-    "image": "./images/nyt.png",
-    "description": "An application that utilizes the New York Times API to pull articles from the users choice of topic and date range. The user can then save an article to a mongo database, or delete the article.",
-    "githubURL": "https://github.com/Rawgher/nytreact",
-    "deployedURL": "https://peaceful-headland-96719.herokuapp.com/",
-    "alt": "NYT React"
+    "id": 15,
+    "name": "One Stop Code Shop",
+    "image": "./images/final_code_shop.png",
+    "description": "This MERN App provides users with a consolidated coding search engine and a forum to get help from the community. I focused on several APIs, setting up the React App, assisted with styling, and helped with other areas of the site when needed. Username: demo Password: demo",
+    "login": "Username: demo Password: demo",
+    "techUsed": "React JS, CSS, Node JS, Express",
+    "githubURL": "https://github.com/Rawgher/OSCS",
+    "deployedURL": "https://onestopcodeshop.herokuapp.com/",
+    "alt": "One Stop Code Shop - Final"
   },
   {
     "id": 5,
