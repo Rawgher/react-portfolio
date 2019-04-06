@@ -1,24 +1,25 @@
+import Typography from "@material-ui/core/Typography";
 import React from "react";
+import { Link } from "react-router-dom";
+import { Col, Container, Row } from "../../components/Grid";
+import Icons from "../../components/Icons";
+import ImageCard from "../../components/ImageCard";
+import JustImage from "../../components/JustImage";
 import Nav from "../../components/Nav";
-import high1 from "../../json/highlight.json";
-import high2 from "../../json/highlight2.json";
-import images from "../../json/image.json";
-import node from "../../json/node.json";
+import NodeImageCard from "../../components/NodeImageCard";
+import ScrollUp from "../../components/ScrollUp";
+import TextCard from "../../components/TextCard";
 import express from "../../json/express.json";
 import handlebars from "../../json/handlebars.json";
+import high1 from "../../json/highlight.json";
+import high2 from "../../json/highlight2.json";
 import html from "../../json/html.json";
+import images from "../../json/image.json";
 import mongo from "../../json/mongo.json";
 import mysql from "../../json/mysql.json";
+import node from "../../json/node.json";
 import react from "../../json/react.json";
-import ImageCard from "../../components/ImageCard";
-import NodeImageCard from "../../components/NodeImageCard";
-import TextCard from "../../components/TextCard";
-import JustImage from "../../components/JustImage";
-import { Col, Row, Container } from "../../components/Grid";
-import Typography from "@material-ui/core/Typography";
-import ScrollUp from "../../components/ScrollUp";
-import { Link } from "react-router-dom";
-import Icons from "../../components/Icons";
+import reactNative from "../../json/reactNative.json";
 import "./Portfolio.css";
 
 class Portfolio extends React.Component {
@@ -26,7 +27,8 @@ class Portfolio extends React.Component {
     high1,
     high2,
     images: images,
-    node
+    node,
+    reactNative
   };
 
   expressClick = () => {
@@ -111,7 +113,9 @@ class Portfolio extends React.Component {
           </Col>
         </Row>
         <Row>
-          <Typography variant="h4">Other Projects</Typography>
+          <Typography variant="h4">
+            Other Projects (React Native and Node Projects Below)
+          </Typography>
         </Row>
         <div className="hideIt">
           <Row>
@@ -149,6 +153,26 @@ class Portfolio extends React.Component {
             ))}
           </Row>
         </div>
+        <Row>
+          <Typography variant="h4" gutterBottom>
+            React Native Projects
+          </Typography>
+        </Row>
+        <Row>
+          {this.state.reactNative.map(reactNative => (
+            <Col size="lg-4 md-4 sm-12">
+              <NodeImageCard
+                id={reactNative.id}
+                key={reactNative.id}
+                name={reactNative.name}
+                image={reactNative.image}
+                description={reactNative.description}
+                githubURL={reactNative.githubURL}
+                alt={reactNative.alt}
+              />
+            </Col>
+          ))}
+        </Row>
         <Row>
           <Typography variant="h4" gutterBottom>
             Node Projects

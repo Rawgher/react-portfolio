@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1323,
+    "name": "Chat Now",
+    "image": "./images/chat-app.png",
+    "description": "This is a basic help chat application prototype. The user logs in and is then apple to chat with customer support trhough their mobile device.",
+    "githubURL": "https://github.com/Rawgher/chat_app",
+    "alt": "Chat Now"
+  },
+  {
+    "id": 1441,
+    "name": "Relaxation Application",
+    "image": "./images/relax-app.png",
+    "description": "An application made to help the user take a moment and relax. The user is able to cycle through quotes meant to make them take some time for themselves out of their busy schedule.",
+    "githubURL": "https://github.com/Rawgher/relaxation_react_native",
+    "alt": "Relaxation Application"
+  }
+]
