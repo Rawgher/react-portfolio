@@ -1,9 +1,17 @@
 [
   {
+    "id": 132312,
+    "name": "Apartment Hunter",
+    "image": "./images/apartment-hunter.png",
+    "description": "This is an application that will allow a user to search and book a viewing for an apartment that they are interested in.",
+    "githubURL": "https://github.com/Rawgher/apartment_hunter",
+    "alt": "Apartment Hunter"
+  },
+  {
     "id": 1323,
     "name": "Chat Now",
     "image": "./images/chat-app.png",
-    "description": "This is a basic help chat application prototype. The user logs in and is then apple to chat with customer support trhough their mobile device.",
+    "description": "This is a basic help chat application prototype. The user logs in and is then apple to chat with customer support through their mobile device.",
     "githubURL": "https://github.com/Rawgher/chat_app",
     "alt": "Chat Now"
   },
