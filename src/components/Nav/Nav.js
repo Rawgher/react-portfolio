@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./Nav.css";
-import logo from "./nav-image/letter-r.svg";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Nav.css';
+import logo from './nav-image/letter-r.svg';
 
 class NavTabs extends React.Component {
   render() {
@@ -16,14 +16,17 @@ class NavTabs extends React.Component {
               </div>
             </Link>
             <ul id="nav-mobile" className="right">
-              <li>
+              {/* <li>
                 <Link to="/">Portfolio</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/about">About</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/contact">Contact</Link>
+              </li> */}
+              <li>
+                <Link to="/">Contact</Link>
               </li>
             </ul>
           </div>
