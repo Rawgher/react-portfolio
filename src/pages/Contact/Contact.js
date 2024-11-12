@@ -34,7 +34,7 @@ const Contact = () => (
 
         <Col size="lg-7 md-7 sm-12">
           <div className="hideResume">
-            <embed src="./images/Pender_Resume_2023.pdf" type="application/pdf" className="pdf" />
+            <embed src="./images/Pender_Resume_2024-NoPhone" type="application/pdf" className="pdf" />
           </div>
         </Col>
       </Row>
